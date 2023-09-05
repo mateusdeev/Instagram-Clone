@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+
+    width: 1000px;
+    height: 700px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.containerlogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    width: 348px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(185, 185, 185);
+    height: 400px;
+    position: relative;
+    top: -10px;
+
+}
+
+.imageminsta {
+
+    display: inline;
+    bottom: 80px;
+    left: 140px;
+    position: relative;
+}
+
+.registra {
+    position: relative;
+    background-color: #FFFFFF;
+    ;
+    border: 1px solid rgb(185, 185, 185);
+    width: 348px;
+    height: 60px;
+    float: right;
+    top: 80px;
+    text-align: center;
+
+}
+
+.email,
+.senha,
+.entrar {
+    width: 250px;
+    height: 50px;
+    margin: 5px;
+}
+
+.email,
+.senha {
+    background-color: #FAFAFA;
+    word-spacing: 0.5px;
+    border: none;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+.entrar {
+    background-color: #4CB5F9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    padding-left: 10px;
+}
+
+a {
+    color: #4CB5F9;
+}
+
+.pregistro {
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+h1 {
+    font-family: inherit;
+}
+
+.logoinsta {
+    width: 200px;
+}
+
+.celular {
+    width: 450px;
+}
+
+.logofaceb {
+    width: 20px;
+}
+
+.botaofacebook {
+    display: flex;
+    border: none;
+    background-color: #FFFFFF;
+    color: #4267B2;
+}
+
+.botaofacebook span {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.containerlogin a {
+    margin-top: 28px;
+    text-decoration: none;
+}
+
+.googlelogo,
+.microsoftlogo {
+    width: 150px;
+
+}
+
+.obtem {
+    position: absolute;
+    background-color: #FFFFFF;
+
+    width: 348px;
+    height: 80px;
+    top: 100px;
+    text-align: center;
+    left: 655px;
+    top: 600px;
+
+
+
+}
